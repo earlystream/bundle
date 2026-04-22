@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "dev.kila.bundleui.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "BundleContentsComponentMixin",
+    "BundleTooltipComponentMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
