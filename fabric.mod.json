@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "bundleui",
+  "version": "${version}",
+  "name": "BundleUI",
+  "description": "Expands the vanilla bundle tooltip to show every stored stack.",
+  "icon": "assets/bundleui/icon.png",
+  "environment": "client",
+  "authors": [
+    "earlystream"
+  ],
+  "license": "MPL-2.0",
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21.11"
+  },
+  "mixins": [
+    "bundleui.mixins.json"
+  ]
+}
